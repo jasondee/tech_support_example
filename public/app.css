@@ -125,39 +125,98 @@ button {
 }
 
 .levelVeryCommon {
-  font-style: italic;
-  font-weight: 400;
+  font-weight: 900;
   margin: 0 0 0 3%;
   color: #0000b2;
 }
 
 .levelCommon {
-  font-style: italic;
-  font-weight: 400;
-  margin: 2em 0 0 3%;
+  font-weight: 900;
+  margin: 5em 0 0 3%;
   color: #00b300;
 }
 
 .levelRebootMightNotWork {
-  font-style: italic;
-  font-weight: 400;
-  margin: 2em 0 0 3%;
+  font-weight: 900;
+  margin: 5em 0 0 3%;
   color: #e5e500;
 }
 
 .levelJustGoHome {
-  font-style: italic;
-  font-weight: 400;
-  margin: 2em 0 0 3%;
+  font-weight: 900;
+  margin: 5em 0 0 3%;
   color: #cc5500;
 }
 
 .levelItsOnFire {
-  font-style: italic;
-  font-weight: 400;
-  margin: 2em 0 0 3%;
+  font-weight: 900;
+  margin: 5em 0 0 3%;
   color: #ff0000;
 }
+
+#theGoogs {
+  margin: 5%;
+  background: #16222A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #D3D3D3;
+}
+
+.gadminContent {
+    width: 100%; 
+    background-image: url("https://source.unsplash.com/UCd78vfC8vU");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 10% 100% 15%;
+}
+
+.gadminHeader {
+    padding-left: 25px;
+    font-size: 3em;
+    border-left: thin solid; 
+    color: #000000;
+}
+
+.gadminP {
+  margin: 3em 20% 0 -10%;
+  font-size: 1.5em;
+  color: #000000;
+}
+
+.gadminP2 {
+  margin: 3em 20% 0 0%;
+  font-size: .5em;
+  color: #000000;
+}
+
+.form {
+    margin-left: 15%;
+    margin-right: 35%;
+    font-size: 1.5em;
+    padding-top: 2em;
+}
+
+.formData {
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+.formDataMessage {
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+#bttn {
+  border-radius: 15px;
+  padding: 1em 2em;
+  background: #fe8c00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #ffffff;
+  font-weight: 700;
+}
+
 
 /* END OF OPENING PAGES*/
 

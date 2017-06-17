@@ -32,6 +32,10 @@ app.get("/", function(req, res){
     res.render("home");
 });
 
+app.get("/gadmin", function(req, res){
+   res.render("gadmin"); 
+});
+
 app.get("/main",isLoggedIn, function(req, res){
    res.render("main"); 
 });
