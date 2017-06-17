@@ -1,0 +1,208 @@
+/* OPENING PAGES */
+
+p {
+  font-weight: 700;
+}
+
+.banner {
+  font-weight: 500;
+  font-size: 3em;
+  text-shadow: 2px 2px #1a1a1a;
+  text-decoration: none;
+  padding: 3% 10% 3% 10%;
+  float: left;
+  color: #D3D3D3;
+}
+
+.headDiv {
+    width: 100%; 
+    background: #0B486B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    border-bottom: 2px solid black;
+}
+
+button {
+  border-radius: 15px;
+  padding: 1em 2em;
+  background: #fe8c00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #ffffff;
+  font-weight: 700;
+}
+
+#homeLogin {
+  margin: 3%;
+  background: #16222A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #D3D3D3;
+}
+
+.homeContent {
+    width: 100%; 
+    background-image: url("https://source.unsplash.com/mOcdke2ZQoE");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 10% 100% 15%;
+}
+
+.pageContent {
+  padding: 1% 10% 0 15%;
+  color: #000000;
+}
+
+.homeHeader {
+    padding-left: 25px;
+    font-size: 3em;
+    border-left: thin solid; 
+    color: #D3D3D3;
+}
+
+.pageHeader {
+    padding-left: 25px;
+    font-size: 3em;
+    border-left: thin solid; 
+    color: #000000;
+}
+
+.homeP {
+  margin: 3em 20% 0 -10%;
+  font-size: 1.5em;
+  color: #D3D3D3;
+}
+
+.login {
+    padding: 10% 0 50em 30%;
+    width: 100%; 
+    background-image: url("https://source.unsplash.com/8EmcqWtYmU0");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.main {
+    width: 100%;
+    background-image: url("https://source.unsplash.com/qKscFO2L4oc");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    border-bottom: 2px solid black;
+}
+
+#mainLogout {
+  float: right;
+  margin: 1% 1% 0 0;
+}
+
+.banner2 {
+  font-weight: 500;
+  font-size: 3em;
+  text-shadow: 2px 2px #1a1a1a;
+  text-decoration: none;
+  padding: 3% 10% 3% 10%;
+  float: left;
+  color: #D3D3D3;
+}
+
+#formField {
+  border-radius: 5px;
+  color: #000000;
+}
+
+.register {
+    padding: 10% 0 50em 30%;
+    width: 100%; 
+    background-image: url("https://source.unsplash.com/random");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.levelVeryCommon {
+  font-style: italic;
+  font-weight: 400;
+  margin: 0 0 0 3%;
+  color: #0000b2;
+}
+
+.levelCommon {
+  font-style: italic;
+  font-weight: 400;
+  margin: 2em 0 0 3%;
+  color: #00b300;
+}
+
+.levelRebootMightNotWork {
+  font-style: italic;
+  font-weight: 400;
+  margin: 2em 0 0 3%;
+  color: #e5e500;
+}
+
+.levelJustGoHome {
+  font-style: italic;
+  font-weight: 400;
+  margin: 2em 0 0 3%;
+  color: #cc5500;
+}
+
+.levelItsOnFire {
+  font-style: italic;
+  font-weight: 400;
+  margin: 2em 0 0 3%;
+  color: #ff0000;
+}
+
+/* END OF OPENING PAGES*/
+
+
+/* CATEGORIES */
+
+
+.cookies {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 2em 2em 0 2em;
+  border: 2px solid black;
+  background-image: url("cookie.PNG");
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+/* END OF CATEGORIES */
+
+
+/* GLOBALS */
+
+.tab {
+    margin-left: 2em;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:active {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
