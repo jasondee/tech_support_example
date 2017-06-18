@@ -43,7 +43,7 @@ app.get("/main",isLoggedIn, function(req, res){
 // Auth Routes
 
 //show sign up form
-app.get("/register", function(req, res){
+app.get("/register",isLoggedIn, function(req, res){
    res.render("register"); 
 });
 //handling user sign up
