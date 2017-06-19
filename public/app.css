@@ -81,6 +81,12 @@ button {
     color: #000000;
 }
 
+.dontPanic {
+  float: right;
+  height: 75px;
+  width: 75px;
+}
+
 .homeP {
   margin: 3em 20% 0 -10%;
   font-size: 1.5em;
